@@ -22,7 +22,7 @@
         </thead>
         <tbody>
           <tr v-if="data.listeProduits.length === 0">
-            <td colspan="4">Veuillez patienter, chargement des produits...</td>
+            <td colspan="4">Il n'y a aucun résultat</td>
           </tr>
           <tr v-for="produit in data.listeProduits" :key="produit.nom">
             <td>{{ produit.nom }}</td>
